@@ -1,4 +1,4 @@
-'Made with help of @Cyril (https://stackoverflow.com/users/3233363/cyril) by NotALlur (github.com)
+'Made with the help of @Cyril (https://stackoverflow.com/users/3233363/cyril), by NotALlur (https://github.com/NotAllur/VBA-Separate-tables-to-worksheets)
 Sub Seperate_to_worksheets()
     With Sheets(1)
         Dim lastRow As Long:  lastRow = .Cells(.Rows.Count, 1).End(xlUp).Row
